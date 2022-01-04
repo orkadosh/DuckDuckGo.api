@@ -47,16 +47,15 @@ namespace duckduckgo.api.Controllers
                         MatchCollection matches = Regex.Matches(relatedTopics, search);
                         var results = matches.Select((m, index) =>
                         {
-                            var Jsonconvert = JsonConvert.DeserializeObject($" {{\"{m.Value}");
-                            return new DuckDuckSearchResponse { value = JsonConvert.SerializeObject(Jsonconvert), index = index };
+                            //var Jsonconvert = JsonConvert.DeserializeObject($" {{\"{m.Value}");
+                            return new DuckDuckSearchResponse { value = $" {{\"{m.Value}", index = index };
                         }).Skip(pageNumber * pageSize).Take(pageSize);
                         return new SearchResponse
                         {
                             Value = results,
                             TotalItems = matches.Count
                         };
-                        //var jsonResult = JsonConvert.DeserializeObject(results);
-                        //  return jsonResult.ToString();
+
                     }
                     catch (Exception ex)
                     {
