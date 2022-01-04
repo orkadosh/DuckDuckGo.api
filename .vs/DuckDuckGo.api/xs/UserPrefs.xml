@@ -1,18 +1,32 @@
 ﻿<Properties StartupConfiguration="{D1CB7F8F-6C97-414A-AD22-A44F4D961718}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DuckDuckGo.api/Controllers/SearchController.cs">
+    <Files>
+      <File FileName="DuckDuckGo.api/Controllers/SearchController.cs" Line="47" Column="68" />
+      <File FileName="DuckDuckGo.api/Startup.cs" Line="14" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DuckDuckGo.api" expanded="True" selected="True" />
+          <Node name="DuckDuckGo.api" expanded="True">
+            <Node name="DuckDuckGo.api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="SearchController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DuckDuckGo.api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.DuckDuckGo.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/orkadosh/משרות/D&amp;b/DuckDuckGo.api/DuckDuckGo.api/Controllers/SearchController.cs" relfile="DuckDuckGo.api/Controllers/SearchController.cs" line="29" column="1" />
+      <Breakpoint file="/Users/orkadosh/משרות/D&amp;b/DuckDuckGo.api/DuckDuckGo.api/Controllers/SearchController.cs" relfile="DuckDuckGo.api/Controllers/SearchController.cs" line="48" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

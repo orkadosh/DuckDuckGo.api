@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DuckDuckGo.api
+namespace duckduckgo.api
 {
     public class Startup
     {
@@ -42,8 +42,10 @@ namespace DuckDuckGo.api
 
             app.UseAuthorization();
 
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseEndpoints(endpoints =>
             {
+
                 endpoints.MapControllers();
             });
         }

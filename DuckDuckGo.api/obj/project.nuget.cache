@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vMFEPKCFc/sqSKHECRAawrRMnTs2bNoDymkfrxo1ZlCPvDJiJgAW7D7pQQVMAfnT60ybfVi4tEvQdRjwSdztpg==",
+  "dgSpecHash": "iOVLFi6UloiQTQFaq8dyWDDl+8DI8dB+f0ylacRzpZSUxTvoeIAScCUx34RRes/jz4gJcID9o97MYUnCeYUXzQ==",
   "success": true,
   "projectFilePath": "/Users/orkadosh/משרות/D&b/DuckDuckGo.api/DuckDuckGo.api/DuckDuckGo.api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/orkadosh/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
